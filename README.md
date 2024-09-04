@@ -28,7 +28,6 @@
     - [Real-World Analogy](#real-world-analogy)
     - [Why do we use namespaces?](#why-do-we-use-namespaces)
   - [2.2. Classes](#22-classes)
-  - [2.3. Main Method](#23-main-method)
 
 </details>
 
@@ -87,7 +86,7 @@ namespace ConsoleApp
 
 ### 2.1. Namespaces
 
-A namespace is a **logical grouping of related types**. It helps to organize code and avoid naming conflicts. `using System;` statement tells the compiler to include the System namespace in oour code. This namespace provides many built-in classes and methods that are essential for developers.
+A namespace is a **logical grouping of related types**. It helps to organize code and avoid naming conflicts. `using System;` statement tells the compiler to include the System namespace in our code. This namespace provides many built-in classes and methods that are essential for developers.
 
 If we didn't include the `System` namespace, we would have to call the `Console.WriteLine()` method as `System.Console.WriteLine()`.
 
@@ -120,7 +119,3 @@ A class is a blueprint for creating objects. It defines the properties and metho
 - Attributes (properties): These are the characteristics or data that an object of the class will have. For example, a `Person` class might have attributes like `name`, `age`, and `address`.
 
 - Behaviors (methods): These are the actions or functions that an object of the class can perform. For example, a `Person` class might have methods like `Walk()`, `Talk()`, and `Eat()`.
-
-### 2.3. Main Method
-
-The Main method is the **starting point** of our C# program. It's declared as static and called without creating an instance of the Program class.
